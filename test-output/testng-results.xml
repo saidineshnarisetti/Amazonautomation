@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Choosen for testing:- Chrome]]>
+    </line>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in-200]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17817" started-at="2020-07-21T16:05:04Z" finished-at="2020-07-21T16:05:22Z">
+    <groups>
+    </groups>
+    <test name="Amazon automation testing" duration-ms="17817" started-at="2020-07-21T16:05:04Z" finished-at="2020-07-21T16:05:22Z">
+      <class name="in.amazon.Titlevalidation">
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:in.amazon.Titlevalidation@20322d26]" name="verifyTitle" duration-ms="17" started-at="2020-07-21T16:05:18Z" finished-at="2020-07-21T16:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:in.amazon.Titlevalidation@20322d26]" name="verifyTitle" duration-ms="32" started-at="2020-07-21T16:05:18Z" finished-at="2020-07-21T16:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="Searchprd()[pri:2, instance:in.amazon.Titlevalidation@20322d26]" name="Searchprd" duration-ms="3998" started-at="2020-07-21T16:05:18Z" finished-at="2020-07-21T16:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchprd -->
+        <test-method status="PASS" signature="Searchresults()[pri:3, instance:in.amazon.Titlevalidation@20322d26]" name="Searchresults" duration-ms="46" started-at="2020-07-21T16:05:22Z" finished-at="2020-07-21T16:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchresults -->
+      </class> <!-- in.amazon.Titlevalidation -->
+      <class name="in.amazon.Geturl">
+        <test-method status="PASS" signature="opendriver(java.lang.String)[pri:0, instance:in.amazon.Geturl@49993335]" name="opendriver" is-config="true" duration-ms="3076" started-at="2020-07-21T16:05:04Z" finished-at="2020-07-21T16:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Choosen for testing:- Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opendriver -->
+        <test-method status="PASS" signature="Url(java.lang.String)[pri:1, instance:in.amazon.Geturl@49993335]" name="Url" duration-ms="10376" started-at="2020-07-21T16:05:08Z" finished-at="2020-07-21T16:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in-200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:in.amazon.Geturl@49993335]" name="terminateBrowser" is-config="true" duration-ms="235" started-at="2020-07-21T16:05:22Z" finished-at="2020-07-21T16:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- in.amazon.Geturl -->
+    </test> <!-- Amazon automation testing -->
+  </suite> <!-- Suite -->
+</testng-results>

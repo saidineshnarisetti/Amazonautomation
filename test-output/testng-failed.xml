@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Amazon automation testing(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="in.amazon.Titlevalidation">
+        <methods>
+          <include name="Searchprd"/>
+          <include name="opendriver"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- in.amazon.Titlevalidation -->
+    </classes>
+  </test> <!-- Amazon automation testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
