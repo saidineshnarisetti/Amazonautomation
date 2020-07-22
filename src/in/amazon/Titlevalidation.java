@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class Titlevalidation extends LaunchBrowser{
 	
-	@Test(priority=1, invocationCount=2) 
+	@Test(priority=1, invocationCount=1) 
 	public void verifyTitle()
 	{
 		  String acttitle = driver.getTitle(); 
@@ -29,12 +29,7 @@ public class Titlevalidation extends LaunchBrowser{
 		 String expscrtitle = "Amazon.in : macbook pro";
 		 Assert.assertEquals(actscrtitle, expscrtitle);
 	}
-	@Test(priority=3) 
-	public void Searchresults()
-	{	
-		System.out.println(driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']")).getText());
-		
-	}
+	
 	
 
 }

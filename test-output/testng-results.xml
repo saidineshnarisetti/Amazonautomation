@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
   <reporter-output>
     <line>
       <![CDATA[Browser Choosen for testing:- Chrome]]>
@@ -7,31 +7,45 @@
     <line>
       <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in-200]]>
     </line>
+    <line>
+      <![CDATA[1-16 of 202 results for "macbook pro"]]>
+    </line>
+    <line>
+      <![CDATA[Randomly selected product:Amazon.in : macbook pro]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="17817" started-at="2020-07-21T16:05:04Z" finished-at="2020-07-21T16:05:22Z">
+  <suite name="Suite" duration-ms="23894" started-at="2020-07-22T09:14:43Z" finished-at="2020-07-22T09:15:07Z">
     <groups>
     </groups>
-    <test name="Amazon automation testing" duration-ms="17817" started-at="2020-07-21T16:05:04Z" finished-at="2020-07-21T16:05:22Z">
+    <test name="Amazon automation testing" duration-ms="23894" started-at="2020-07-22T09:14:43Z" finished-at="2020-07-22T09:15:07Z">
       <class name="in.amazon.Titlevalidation">
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:in.amazon.Titlevalidation@20322d26]" name="verifyTitle" duration-ms="17" started-at="2020-07-21T16:05:18Z" finished-at="2020-07-21T16:05:18Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:in.amazon.Titlevalidation@192b07fd]" name="verifyTitle" duration-ms="31" started-at="2020-07-22T09:15:02Z" finished-at="2020-07-22T09:15:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:in.amazon.Titlevalidation@20322d26]" name="verifyTitle" duration-ms="32" started-at="2020-07-21T16:05:18Z" finished-at="2020-07-21T16:05:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="Searchprd()[pri:2, instance:in.amazon.Titlevalidation@20322d26]" name="Searchprd" duration-ms="3998" started-at="2020-07-21T16:05:18Z" finished-at="2020-07-21T16:05:22Z">
+        <test-method status="PASS" signature="Searchprd()[pri:2, instance:in.amazon.Titlevalidation@192b07fd]" name="Searchprd" duration-ms="4507" started-at="2020-07-22T09:15:02Z" finished-at="2020-07-22T09:15:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searchprd -->
-        <test-method status="PASS" signature="Searchresults()[pri:3, instance:in.amazon.Titlevalidation@20322d26]" name="Searchresults" duration-ms="46" started-at="2020-07-21T16:05:22Z" finished-at="2020-07-21T16:05:22Z">
+      </class> <!-- in.amazon.Titlevalidation -->
+      <class name="in.amazon.Productselection">
+        <test-method status="PASS" signature="Searchresults()[pri:3, instance:in.amazon.Productselection@64bfbc86]" name="Searchresults" duration-ms="37" started-at="2020-07-22T09:15:06Z" finished-at="2020-07-22T09:15:07Z">
           <reporter-output>
+            <line>
+              <![CDATA[1-16 of 202 results for "macbook pro"]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Searchresults -->
-      </class> <!-- in.amazon.Titlevalidation -->
+        <test-method status="PASS" signature="Randprdselection()[pri:4, instance:in.amazon.Productselection@64bfbc86]" name="Randprdselection" duration-ms="352" started-at="2020-07-22T09:15:07Z" finished-at="2020-07-22T09:15:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Randomly selected product:Amazon.in : macbook pro]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Randprdselection -->
+      </class> <!-- in.amazon.Productselection -->
       <class name="in.amazon.Geturl">
-        <test-method status="PASS" signature="opendriver(java.lang.String)[pri:0, instance:in.amazon.Geturl@49993335]" name="opendriver" is-config="true" duration-ms="3076" started-at="2020-07-21T16:05:04Z" finished-at="2020-07-21T16:05:07Z">
+        <test-method status="PASS" signature="opendriver(java.lang.String)[pri:0, instance:in.amazon.Geturl@20322d26]" name="opendriver" is-config="true" duration-ms="2824" started-at="2020-07-22T09:14:43Z" finished-at="2020-07-22T09:14:46Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +59,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- opendriver -->
-        <test-method status="PASS" signature="Url(java.lang.String)[pri:1, instance:in.amazon.Geturl@49993335]" name="Url" duration-ms="10376" started-at="2020-07-21T16:05:08Z" finished-at="2020-07-21T16:05:18Z">
+        <test-method status="PASS" signature="Url(java.lang.String)[pri:1, instance:in.amazon.Geturl@20322d26]" name="Url" duration-ms="16053" started-at="2020-07-22T09:14:46Z" finished-at="2020-07-22T09:15:02Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +73,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Url -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:in.amazon.Geturl@49993335]" name="terminateBrowser" is-config="true" duration-ms="235" started-at="2020-07-21T16:05:22Z" finished-at="2020-07-21T16:05:22Z">
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:in.amazon.Geturl@20322d26]" name="terminateBrowser" is-config="true" duration-ms="61" started-at="2020-07-22T09:15:07Z" finished-at="2020-07-22T09:15:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->

@@ -5,13 +5,13 @@
     <parameter name="browser" value="Chrome"/>
     <parameter name="url" value="https://www.amazon.in/"/>
     <classes>
-      <class name="in.amazon.Titlevalidation">
+      <class name="in.amazon.Geturl">
         <methods>
-          <include name="Searchprd"/>
+          <include name="Url" invocation-numbers="0"/>
           <include name="opendriver"/>
           <include name="terminateBrowser"/>
         </methods>
-      </class> <!-- in.amazon.Titlevalidation -->
+      </class> <!-- in.amazon.Geturl -->
     </classes>
   </test> <!-- Amazon automation testing(failed) -->
 </suite> <!-- Failed suite [Suite] -->

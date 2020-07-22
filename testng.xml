@@ -6,8 +6,9 @@
 		<parameter name="url"
 			value="https://www.amazon.in/" />
 		<classes>
-			<class name="in.amazon.Geturl" />
-			<class name="in.amazon.Titlevalidation" />
+			<class name="in.amazon.Geturl"/>
+			<class name="in.amazon.Titlevalidation"/>
+			<class name="in.amazon.Productselection"/>
 			
 		</classes>
 	</test>
