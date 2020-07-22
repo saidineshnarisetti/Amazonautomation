@@ -38,6 +38,6 @@ public abstract class LaunchBrowser {
 
 	@AfterTest
 	public void terminateBrowser(){
-        driver.close();
+       driver.quit();
 	}
 }
