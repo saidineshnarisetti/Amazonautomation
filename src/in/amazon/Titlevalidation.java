@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class Titlevalidation extends LaunchBrowser{
 	
-	@Test(priority=1, invocationCount=1) 
+	@Test(priority=2, invocationCount=1) 
 	public void verifyTitle()
 	{
 		  String acttitle = driver.getTitle(); 
@@ -20,7 +20,7 @@ public class Titlevalidation extends LaunchBrowser{
 	      Assert.assertEquals(acttitle, exptitle);
 	      Assert.assertEquals(driver.getCurrentUrl().contains("amazon"), true);
 	}
-	@Test(priority=2) 
+	@Test(priority=3) 
 	public void Searchprd()
 	{		
 		 driver.findElement(By.id("twotabsearchtextbox")).sendKeys("macbook pro");

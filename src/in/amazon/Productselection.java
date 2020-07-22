@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 
 public class Productselection extends LaunchBrowser{
 
-	@Test(priority=3) 
+	@Test(priority=4) 
 	public void Searchresults()
 	{	
 		Reporter.log(driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']")).getText());
 		
 	}
-	@Test(priority=4) 
+	@Test(priority=5) 
 	public void Randprdselection()
 	{	
 	Random rand = new Random();

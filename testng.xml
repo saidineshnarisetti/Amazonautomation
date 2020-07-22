@@ -9,7 +9,6 @@
 			<class name="in.amazon.Geturl"/>
 			<class name="in.amazon.Titlevalidation"/>
 			<class name="in.amazon.Productselection"/>
-			
 		</classes>
 	</test>
 </suite> <!-- Suite -->
